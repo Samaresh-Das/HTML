@@ -5,37 +5,110 @@
     </title>
 
     <body>
-        <div id = "About Me">
-            <img src = " https://drive.google.com/thumbnail?id=17KO9ZqnnD33LxCeEEE_ha2pz0bxIsLDj">
-            <h2>About Me</h2>
-                <p>A college student of age 21, passionate in coding and web development. ALways like to explore.</p>
-                <p>My main goals are to master android and web development </p>
-        </div>
+        <center>
+            <div id = "About Me">
+                <img src = " https://drive.google.com/thumbnail?id=17KO9ZqnnD33LxCeEEE_ha2pz0bxIsLDj">
+                <h2>About Me</h2>
+                    <p>A college student of age 21, passionate in coding and web development. ALways like to explore.</p>
+                    <p>My main goals are to master android and web development </p>
+            </div>
+        </center>
         
-        <div id = "Education">
-            <h3>Education</h3>
-                <ol>
-                    <li><b>Secondary Education</b> from East West Model School at ICSE</li>
-                    <li><b>Higher Secondary Education</b> from East West Model School at ISC</li>
-                    <li> <b>BCA - Graduation</b> from Burdwan Institute of computer and Medical Science</li>
-                </ol>
-        </div>
         
-        <div id = "Coding Skills">
-            <h2>Coding Skills :-</h2>                 
-                <ul>
-                    <li><strong>C</strong></li>
-                    <li><strong>HTML</strong></li>
-                    <li><strong>Pyhtong</strong></li>
-                </ul>
-        </div>
+        <center>                               <!--Section to show my eduacation info-->
+            <div id = "Education">
+                <h3>Education</h3>
+                    <ol>
+                        <li><b>Secondary Education</b> from East West Model School at ICSE</li>
+                        <li><b>Higher Secondary Education</b> from East West Model School at ISC</li>
+                        <li> <b>BCA - Graduation</b> from Burdwan Institute of computer and Medical Science</li>
+                    </ol>
+            </div>
+        </center>
         
-
-        <div id = "Socials"></div>   <!-- Adding links of my socials -->
+        
+        <center>
+            <div id = "Coding Skills">
+                <h2>Coding Skills :-</h2>                 
+                    <ul>
+                        <li><strong>C</strong></li>
+                        <li><strong>HTML</strong></li>
+                        <li><strong>Pyhtong</strong></li>
+                    </ul>
+            </div>
+        </center>
+        
+        
+        <center>
+            <div id = "Socials"></div>   <!-- Adding links of my socials -->
             <ul>
                 <li><a href = "https://www.linkedin.com/in/samaresh-das-ab9621212/" target = "_blank">linkedin</a></li>
                 <li><a href = "https://github.com/Samaresh-Das" target = "_blank">Github</a></li>
             </ul>
+        </div>
+        </center>
+
+        <hr>
+        
+
+        <div id = "Contact Me">
+            <form>
+                <h2>Contact Me</h2>   <!--enter your email-->
+                <label for  = "E-mail">Email</label> 
+                <input type = "text" name = "E-mail" id = "E-mail">
+
+                <br>
+                <br>
+
+                <label for = "password">Password</label> <!--enter your password-->
+                <input type = "password" name = "password" id = "password">
+
+                <br>
+                <br>
+
+                <p>Tell your thoughts or query</p> <!--creating blanks space for more to write-->
+                <label for = "textarea"></label>
+                <textarea id = "textarea" name = "textarea" cols = "50" rows = "5">
+                </textarea>
+
+                <br>
+
+                <input type = "submit" value = "Send"> <!--Submit button-->
+
+            </form>
+        </div>
+
+        <hr>
+
+        <div id = "Rating">
+            <center>
+                <form>
+                    <p>How do you rate my website</p>
+                    <label for = "Great"> Great </label>
+                    <input id = "Great" type = "radio" name = "checkbox" value = "Great">
+                    
+                    <br>
+                    
+                    <label for = "bad"> Bad </label>
+                    <input id = "bad" type = "radio" name = "checkbox" value = "bad">
+                </form>
+            </center>
+            
+        </div>
+
+        <hr>
+
+        <div id = "rate my website">
+            <center>
+                <label for = "star">Rate my website</label>
+                <select id = "star" name = "rating">
+                    <option value = "5 star">*****</option>
+                    <option value = "4 star">****</option>
+                    <option value = "3 star">***</option>
+                    <option value = "2 star">**</option>
+                    <option value = "1 star">*</option>
+                </select>
+            </center>
         </div>
     </body>
 </html>
