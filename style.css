@@ -1,17 +1,52 @@
 
 h2.about {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
-    color: brown;
+    color: rgb(247, 247, 247);
     text-align: center;
+    text-decoration: underline;
+}
+
+h2.education, {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(248, 254, 255);
+    text-align: center;
+    text-decoration: underline;
 }
 
 
 
+.coding h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.education {
+    color: rgb(177, 215, 248);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 p {
-    color: red;
+    color: rgb(177, 215, 248);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.socials li {
+    color: rgb(177, 215, 248);
+    font-size: 24px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;     
 }
 
 a[href*='sign-up']{
@@ -26,41 +61,40 @@ a[href*='sign-up']{
     color: rgb(33, 187, 136);
 }
 
-.about{
-    color: blue;
-}
 
-.upper{
-    text-transform: uppercase;
-}
 
 a[href*='linkedin'],
     a[href*='github'] {
         font-weight: bold;
-    }
-
-a[href*='linkedin'],
-    a[href*='github'] {
+        color: rgb(231, 248, 132);
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
+
 .codelist li{
-    color: darkgreen;
+    color: rgb(177, 215, 248);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;    
 }
 
 .image {
     height: 100%;
     width: 1920;
-    background-image: url('https://i.ibb.co/bRxHv7w/laptop-wallpaper-1920x1080.jpg');
-    padding: 30%;
+    background-image: url('https://i.ibb.co/0YQRLVd/gradienta-b-KESVqfxass-unsplash.jpg');
+    padding: 15%;
     background-size: cover;
     background-position: center;
 }
 
 .footer {
-    background-image: url('https://i.ibb.co/tBQKwn1/red-and-white-torn-paper-effect-background.jpg');
+    background-image: url('https://i.ibb.co/c8tW2Tv/pngkey-com-blue-background-png-6200528.png');
     background-size: 100% 100%;
-    width: 100%;
+    width: 99%;
     height: 400px;
-    
 }
+
+#thoughts {
+    text-align: left;
+}
+
