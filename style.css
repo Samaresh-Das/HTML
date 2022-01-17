@@ -1,6 +1,24 @@
+* {
+    border: 1px solid blue;
+  }
+
 p {
     color: red;
 }
+
+a[href*='sign-up']{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a.signup:hover {
+    color: chocolate;
+}
+
+a[href*='sign-up']{
+    color: rgb(33, 187, 136);
+}
+
+
 
 .about{
     color: blue;
@@ -8,4 +26,24 @@ p {
 
 .upper{
     text-transform: uppercase;
+}
+
+a[href*='linkedin'] {
+    font-weight: bold;
+}
+
+a[href*='linkedin'] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a[href*='github'] {
+    font-weight: bold;
+}
+
+a[href*='linkedin'] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.codelist li{
+    color: darkgreen;
 }
