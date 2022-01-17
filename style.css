@@ -1,6 +1,14 @@
-* {
-    border: 1px solid blue;
-  }
+
+h2.about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+}
+
+
+
 
 p {
     color: red;
@@ -18,8 +26,6 @@ a[href*='sign-up']{
     color: rgb(33, 187, 136);
 }
 
-
-
 .about{
     color: blue;
 }
@@ -28,22 +34,33 @@ a[href*='sign-up']{
     text-transform: uppercase;
 }
 
-a[href*='linkedin'] {
-    font-weight: bold;
-}
+a[href*='linkedin'],
+    a[href*='github'] {
+        font-weight: bold;
+    }
 
-a[href*='linkedin'] {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-a[href*='github'] {
-    font-weight: bold;
-}
-
-a[href*='linkedin'] {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+a[href*='linkedin'],
+    a[href*='github'] {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
 .codelist li{
     color: darkgreen;
+}
+
+.image {
+    height: 100%;
+    width: 1920;
+    background-image: url('https://i.ibb.co/bRxHv7w/laptop-wallpaper-1920x1080.jpg');
+    padding: 30%;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-image: url('https://i.ibb.co/tBQKwn1/red-and-white-torn-paper-effect-background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    
 }
