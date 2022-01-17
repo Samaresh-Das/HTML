@@ -8,7 +8,7 @@ h2.about {
     text-decoration: underline;
 }
 
-h2.education, {
+h2.education {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bold;
@@ -96,5 +96,9 @@ a[href*='linkedin'],
 
 #thoughts {
     text-align: left;
+}
+
+h2{
+    border: 2px outset rgb(69, 240, 188);
 }
 
