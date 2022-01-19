@@ -82,7 +82,7 @@ a[href*='linkedin'],
     height: 100%;
     width: 1920;
     background-image: url('https://i.ibb.co/0YQRLVd/gradienta-b-KESVqfxass-unsplash.jpg');
-    padding: 15%;
+    padding: 7%;
     background-size: cover;
     background-position: center;
 }
@@ -98,7 +98,9 @@ a[href*='linkedin'],
     text-align: left;
 }
 
-h2{
+h2.borders{
     border: 2px outset rgb(69, 240, 188);
+    border-radius: 15px;
+    padding: 7px;                       /* To set the corners of the borders a little bit roundish or oval */
 }
 
