@@ -12,16 +12,19 @@
 <body>
     <div class='image'>
         <header>
-            <b><a href="sign-up.html" class='signup'>Sign up</a></b>
+            <div class='boxes'>
+                <a href="sign-up.html" class='box1'>Sign up</a>
             <!--To go to sign up html file or page-->
 
+            <a href="contactme.html" class='box2'>Contact Me</a>
+            </div>
+            </header>
 
-            <center>
-                <div id="About Me">
-                    <img src=" https://drive.google.com/thumbnail?id=17KO9ZqnnD33LxCeEEE_ha2pz0bxIsLDj">
-                </div>
-            </center>
-        </header>
+        <center>
+            <div id="About Me">
+                <img src=" https://drive.google.com/thumbnail?id=17KO9ZqnnD33LxCeEEE_ha2pz0bxIsLDj">
+            </div>
+        </center>
 
         <hr>
 
@@ -78,79 +81,46 @@
 
     <hr>
 
-    <div class='footer'>
-        <div id="Contact Me">
-            <form>
-                <h2>Contact Me</h2>
-                <!--enter name-->
-                <label for="name">Name</label>
-                <input type="text" name="E-mail" id="name" required>
+    <footer>
+        <div id="Rating">
+            <center>
+                <form>
+                    <p>How do you rate my website</p>
+                    <label for="Great"> Great </label>
+                    <input id="Great" type="radio" name="checkbox" value="Great">
 
-                <br>
-                <br>
+                    <br>
 
-                <label for="E-mail">Email</label>
-                <input type="text" name="E-mail" id="E-mail" required>
+                    <label for="bad"> Bad </label>
+                    <input id="bad" type="radio" name="checkbox" value="bad">
+                </form>
+            </center>
 
-                <br>
-                <br>
-
-                <p id='thoughts'>Tell your thoughts or query</p>
-                <!--creating blanks space for more to write-->
-                <label for="textarea"></label>
-                <textarea id="textarea" name="textarea" cols="50" rows="5" minlength="3" maxlength="400">
-                    </textarea>
-
-                <br>
-
-                <input type="submit" value="Send">
-                <!--Submit button-->
-
-            </form>
         </div>
 
         <hr>
 
-        <footer>
-            <div id="Rating">
-                <center>
-                    <form>
-                        <p>How do you rate my website</p>
-                        <label for="Great"> Great </label>
-                        <input id="Great" type="radio" name="checkbox" value="Great">
+        <div id="rate my website">
+            <center>
+                <label for="star" class='rate'>Rate my website</label>
+                <select id="star" name="rating">
+                    <option value="5 star">*****</option>
+                    <option value="4 star">****</option>
+                    <option value="3 star">***</option>
+                    <option value="2 star">**</option>
+                    <option value="1 star">*</option>
+                </select>
+            </center>
+        </div>
 
-                        <br>
+        <hr>
 
-                        <label for="bad"> Bad </label>
-                        <input id="bad" type="radio" name="checkbox" value="bad">
-                    </form>
-                </center>
-
-            </div>
-
-            <hr>
-
-            <div id="rate my website">
-                <center>
-                    <label for="star" class='rate'>Rate my website</label>
-                    <select id="star" name="rating">
-                        <option value="5 star">*****</option>
-                        <option value="4 star">****</option>
-                        <option value="3 star">***</option>
-                        <option value="2 star">**</option>
-                        <option value="1 star">*</option>
-                    </select>
-                </center>
-            </div>
-
-            <hr>
-
-            <div class="share">
-                <a href="#">SHARE</a>
-                <a href="#">COMMENT</a>
-                <a href="#">ABOUT</a>
-            </div>
-        </footer>
+        <div class="share">
+            <a href="#">SHARE</a>
+            <a href="#">COMMENT</a>
+            <a href="#">ABOUT</a>
+        </div>
+    </footer>
     </div>
 </body>
 
