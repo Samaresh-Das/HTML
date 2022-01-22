@@ -91,7 +91,7 @@ a[href*='linkedin'],
     background-image: url('https://i.ibb.co/c8tW2Tv/pngkey-com-blue-background-png-6200528.png');
     background-size: 100% 100%;
     width: 99%;
-    height: 400px;
+    height: 350px;
 }
 
 #thoughts {
@@ -103,4 +103,38 @@ h2.borders{
     border-radius: 15px;
     padding: 7px;                       /* To set the corners of the borders a little bit roundish or oval */
 }
+
+.rate li {
+    height: 50px;
+}
+
+.share {
+    border: 1px solid LightGrey;
+    padding: 20px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  .share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .share a:hover {
+    background: rgb(255, 251, 20);
+    border: 1px solid red;
+    color: red;
+  }
+
+  footer {
+      border: 2px solid red;
+      overflow: scroll;
+  }
 
