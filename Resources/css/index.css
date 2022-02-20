@@ -1,13 +1,19 @@
 p {
-    color: rgb(177, 215, 248);
+    color: rgb(96, 172, 243);
     font-size: 24px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     
 }
 
+.img{
+    border: 9px solid rgb(236, 161, 100);
+    border-radius: 7px;
+}
+
 h2{
     font-family: 'Mochiy Pop P One';
+    color: rgb(245, 231, 107) !important;
 }
 
 h2.about {
@@ -32,6 +38,7 @@ h2.education {
     opacity: 90%;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    font-family: 'Mochiy Pop P One';
 
 }
 h2.skills {
@@ -53,7 +60,7 @@ h2.skills {
 }
 
 .education {
-    color: rgb(177, 215, 248);
+    color: rgb(96, 172, 243);
     font-size: 24px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -77,13 +84,13 @@ h2.skills {
 a[href*='linkedin'],
     a[href*='github'] {
         font-weight: bold;
-        color: rgb(231, 248, 132);
+        color: rgb(236, 153, 115);
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
 
 .codelist li{
-    color: rgb(177, 215, 248);
+    color: rgb(96, 172, 243);
     font-size: 24px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;    
@@ -92,10 +99,12 @@ a[href*='linkedin'],
 .image {
     height: 100%;
     width: 1920;
-    background-image: url('https://i.ibb.co/0YQRLVd/gradienta-b-KESVqfxass-unsplash.jpg');
+    background-image: url('/Resources/Images/william-daigneault-Cd84YdL9px8-unsplash.jpg');
     padding: 7%;
     background-size: cover;
     background-position: center;
+    border: 10px solid rgb(235, 103, 240);
+    border-radius: 10px;
 
 }
 
@@ -111,7 +120,7 @@ a[href*='linkedin'],
 }
 
 h2.borders{
-    border: 2px outset rgb(69, 240, 188);
+    border: 10px outset rgb(201, 117, 235);
     border-radius: 15px;
     padding: 7px;                       /* To set the corners of the borders a little bit roundish or oval */
 }
@@ -146,39 +155,42 @@ h2.borders{
   }
 
   footer {
-      border: 2px solid red;
+      border: 10px solid red;
       height: 300px;
       background-color: rgb(219, 226, 191) ;
+      border-radius: 15px;
       
   }
 
   .sign-up {
       color:white;  /*text color and other attributes was not changing so had to implement important*/
-      width: 101px;
-      height: 20px;
-      display: inline-block;
-      border: 1px solid rgb(255, 253, 106);
+      width: 140px;
+      height: 40px;
+      display: inline-flex;
+      border: 4px solid rgb(0, 142, 236);
       border-radius: 8px;
-      padding: 7px;
-      background: rgb(5, 145, 86);
-      font-size: 16px;
+      padding: 10px;
+      background: rgb(114, 211, 235);
+      font-size: 30px;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
+      opacity: 90%;
       
     }
 
   .contactme {
-    width: 100px;
-    height: 21px;
-    display: inline-block;
-    border: 1px solid rgb(255, 253, 106);
+    width: 180px;
+    height: 40px;
+    display: inline-flex;
+    border: 4px solid rgb(0, 142, 236);
     border-radius: 8px;
-    padding: 7px;    
-    background: rgb(5, 145, 86);  
-    font-size: 16px;
+    padding: 10px;    
+    background: rgb(114, 211, 235);  
+    font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
+    opacity: 90%;
     
 }
 
